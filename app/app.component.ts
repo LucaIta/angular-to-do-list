@@ -2,6 +2,8 @@ import { Component, EventEmitter } from 'angular2/core';
 import { TaskListComponent } from './task-list.component';
 import { Task } from './task.model';
 
+
+
 @Component({ //component decorator defining selector and template
   selector: 'my-app',
   directives: [TaskListComponent],
